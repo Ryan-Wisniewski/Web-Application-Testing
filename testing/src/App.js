@@ -1,5 +1,4 @@
 import React from 'react';
-import Display from './componenets/Display/Display'
 import Dashboard from './componenets/Dashboard/Dashboard'
 
 import './App.css';

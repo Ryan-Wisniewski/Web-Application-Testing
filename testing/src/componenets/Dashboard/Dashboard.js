@@ -1,9 +1,11 @@
 import React from 'react'
+import Display from '../Display/Display'
 
 class Dasboard extends React.Component{
             state = {
                 balls: 0,
                 strikes: 0,
+                people: []
             }
         strike = () =>{
             // if(strikes < 3){
@@ -40,6 +42,11 @@ class Dasboard extends React.Component{
             }
         }
 
+        hit = () => {
+            let hit = this.state
+            console.log(hit)
+        }
+
         
             
         
@@ -47,11 +54,11 @@ class Dasboard extends React.Component{
     return(
         <>
             <h1>{this.state.strikes} : {this.state.balls}</h1>
-
+            
             <button onClick={this.strike}>Strike</button>
             <button onClick={this.ball}>Ball</button>
             <button onClick={this.foul}>Foul</button>
-            {/* <button onClick={this.hit}>Hit</button> */}
+            <button onClick={this.hit}>Hit</button>           
         </>
     )}
 }

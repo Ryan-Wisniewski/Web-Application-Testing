@@ -1,22 +1,14 @@
-// import React, { useState, useEffect } from 'react'
-// import Dasboard from '../Dashboard/Dashboard';
+import React, { useState, useEffect } from 'react'
+import Dasboard from '../Dashboard/Dashboard';
 
-// function Display(){
-//     const [strikes, setStrikes] = useState(0)
-//     const [balls, setBalls] = useState(0)
+function Display({props}){
 
-//     const onSubmit = (e) => {
-//         e.preventDefault()
-        
-//     }
 
-//     return(
-//         <>
-//             <Dasboard />
-//             <button onClick={onSubmit}>Hit</button>
-//         </>
-//     )
-// }
+    return(
+        <>
+        </>
+    )
+}
 
-// export default Display
+export default Display
 
